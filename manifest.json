@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "wordy",
+  "description": "word frequency analysis",
+  "version": "1.0",
+
+  "permissions": [
+    //"*://*/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "lib/w.png",
+    "default_popup": "lib/popup.html"
+  },
+
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["lib/contentScript.js"]
+  }]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Wordy</title>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Verdana, Arial, 'sans serif';
+        background-color: rgba(50, 50, 50, 0.901961);
+        font-size: 11pt;
+        min-width: 330px;
+        background-position: initial initial;
+        background-repeat: initial initial;"
+      }
+
+      #slider {
+        position: absolute;
+        left: 10px;
+        top: 5px;
+        width: 150px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        cursor: pointer;
+      }
+
+      #regex {
+        position: absolute;
+        left: 180px;
+        top: 5px;
+        width: 150px;
+        background-color: transparent;
+        outline: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 1px solid white;
+        background-position: initial initial;
+        background-repeat: initial initial;
+      }
+
+      #data {
+        color: rgb(238, 238, 238);
+        border: 0px;
+        margin-top: 30px;
+        text-align: left;
+        font-size: 9pt;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <input id="slider" type="range" min="1" max="8" title="minimum word size">
+    <input id="regex" type="text" title="filter by regular expression" value=".">
+    <table id="data">
+     <script src="wordy.js"></script>
+    </table>
+  </body>
+</html>
+
