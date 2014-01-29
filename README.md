@@ -1,7 +1,7 @@
 ## Wordy Extension
 ### A word frequency util in a chrome extension
 
-Wordy lists all words on the current web page by usage frequency. 
+Wordy lists the words on the current web page by usage frequency. 
 
 ###Installation
 Drag [wordy-extension.crx](https://github.com/angus-c/wordy-extension/blob/master/wordy-extension.crx) to your chrome extensions page.  
