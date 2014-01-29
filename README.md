@@ -13,7 +13,7 @@ By default wordy lists every 5+ letter word on the page in frequency order
 
 ![alt tag](https://raw.github.com/angus-c/wordy-extension/master/demo1.png)
 
-####Adjsuting the minimum word size 
+####Adjusting the minimum word size 
 
 Move the slidy bar to set the minimum word size for the search
 
