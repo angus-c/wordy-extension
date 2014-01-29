@@ -1,14 +1,20 @@
-TODO: needs more tests and would be nice to make it a chrome extension.
+## Wordy Extension
+### A word frequency util in a chrome extension
 
-## WORDY
-### An embedded word frequency util
+Wordy lists all words on the current web page by usage frequency. 
 
-Wordy lists all words on the current web page by usage frequency. Use the bookmarklet to generate a data popup for the current page. Use the slider to adjust the minimum word size...
+###Installation
+Drag [wordy-extension.crx](https://github.com/angus-c/wordy-extension/blob/master/wordy-extension.crx) to your chrome extensions page.  
+I'll probably add it to the store at some point
 
-![alt tag](https://raw.github.com/angus-c/wordy/master/demo.png)
+###Usage
+
+Adjust the slidy bar to set the minimum word size for the search
+
+![alt tag](https://raw.github.com/angus-c/wordy-extension/master/demo1.png)
 
 You can also filter the results with a regular expression...
 
-![alt tag](https://raw.github.com/angus-c/wordy/master/demo2.png)
+![alt tag](https://raw.github.com/angus-c/wordy-extension/master/demo2.png)
 
 
