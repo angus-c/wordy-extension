@@ -1,6 +1,8 @@
 ## Wordy Extension
 ### A word frequency util in a chrome extension
 
+[![Build Status](https://travis-ci.org/angus-c/wordy-extension.png?branch=master)](http://travis-ci.org/angus-c/wordy-extension)
+
 Wordy lists all words on the current web page by usage frequency.
 
 ###Installation
