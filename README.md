@@ -26,7 +26,7 @@ You can also filter the results with a regular expression...
 
 ###Testing
 
-npm install
+npm install  
 karma start
 
 
