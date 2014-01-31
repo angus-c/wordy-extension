@@ -31,6 +31,9 @@ describe("counter", function() {
       counter.analyze(text, 5, /nd$/);
       expect(counter.data.total).toEqual(2);
     });
-
+    it("should ignore case when filtering", function() {
+      counter.analyze(text, 5, /scène/);
+      expect(counter.data.total).toEqual(1);
+    });
   });
 });
