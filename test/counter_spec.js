@@ -6,6 +6,9 @@ describe("counter", function() {
     it("should be a method", function() {
       expect(typeof counter.analyze).toEqual('function');
     });
+    it("dummy test for travis", function() {
+      expect(typeof counter.analyze).toEqual('function');
+    });
     it("should return the counter", function() {
       expect(counter.analyze(text)).toEqual(counter);
     });
