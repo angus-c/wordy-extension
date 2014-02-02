@@ -13,7 +13,7 @@ describe("counter", function() {
     it("should return the counter", function() {
       expect(counter.analyze(text)).toEqual(counter);
     });
-    it("should register unique words once", function() {
+    iit("should register unique words once", function() {
       counter.analyze(text, 1, /./);
       var grandmereArray = counter.data.words.filter(function(e) {return e[0] == 'grand-mère'})[0];
       expect(grandmereArray[1]).toEqual(1);
