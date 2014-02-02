@@ -25,7 +25,7 @@ describe("counter", function() {
     });
     it("should filter by simple regex", function() {
       counter.analyze(text, 5, /râc/);
-      expect(counter.data.total).toEqual(2);
+      expect(counter.data.total).toEqual(1);
     });
     it("should filter by positional regex", function() {
       counter.analyze(text, 5, /nd$/);
