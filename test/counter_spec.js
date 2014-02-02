@@ -3,15 +3,15 @@ l'hiver de notre mécontentement. Qui attend à votre grâce? grand-mère!"
 
 describe("counter", function() {
   describe("analyze", function() {
-    it("should set data.total to word count", function() {
-      counter.analyze(text, 1, /./);
-      expect(counter.data.total).toEqual(20);
-    });
     it("should be a method", function() {
       expect(typeof counter.analyze).toEqual('function');
     });
     it("should return the counter", function() {
       expect(counter.analyze(text)).toEqual(counter);
+    });
+    it("should set data.total to word count", function() {
+      counter.analyze(text, 1, /./);
+      expect(counter.data.total).toEqual(20);
     });
     it("should register unique words once", function() {
       counter.analyze(text, 1, /./);
